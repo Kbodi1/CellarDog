@@ -1,0 +1,59 @@
+body {
+  background-color: #b30000;
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.bracket {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  min-width: 100px;
+}
+
+.round.right {
+  flex-direction: column-reverse;
+}
+
+.matchup {
+  margin: 10px;
+  padding: 10px;
+  background-color: #800000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #000;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0.5;
+  min-width: 120px;
+}
+
+.champion {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+}
